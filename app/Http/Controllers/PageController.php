@@ -21,17 +21,17 @@ class PageController extends Controller
         if (! file_exists($path)) {
             // dd("File does not exist");
             // abort(500);
-            return redirect("/");
+            return redirect("/");   
 
         }
 
-        $post = cache()->remember("blog.{slime}", 3, function () use($path) {
+        // now()->addSeconds(3);
+        $post = cache()->remember("blog.{slime}", 1, function () use($path) {
             
-            // var_dump($path);
+            var_dump("file_get_contents");
             return file_get_contents($path);
             
         });
-
 
         return view("blog", ["post" => $post]);
 
