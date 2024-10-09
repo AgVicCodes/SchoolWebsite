@@ -1,0 +1,15 @@
+Started working on the project again on 09-10-2024
+
+Needed to install php (xampp) and composer to run project
+
+autoload file wasn't found when I ran `php artisan serve`
+
+to solve that i used composer update to install necessary
+packages
+
+upon hosting the project, encountered laravel 500 server
+error
+
+to fix that I had to create an .env file, copy the reqs
+from .env.example file and generate key using
+`php artisan key:generate`
