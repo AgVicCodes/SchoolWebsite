@@ -16,7 +16,7 @@
             <input type="text" name="phone" id="phone"><br>
             
             <label for="password">Password</label><br>
-            <input type="password" name="password" id="password"><br><br>
+            <input type="password" name="password" id="password"><br><br>#<br><br>
 
             <button type="submit" class="smb">Register</button>
         </form>
