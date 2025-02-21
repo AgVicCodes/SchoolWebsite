@@ -13,3 +13,5 @@ error
 to fix that I had to create an .env file, copy the reqs
 from .env.example file and generate key using
 `php artisan key:generate`
+
+Up next, add tailwindcss for styling

@@ -91,5 +91,4 @@
         science, service, or sports, our extracurricular 
         activities provides a platform for you to explore.
     </p>
-
 @endsection
