@@ -22,6 +22,19 @@
     </header>
     <main>
         @yield('content')
-    </main>  
+    </main>
+    <footer>
+        <h4>Acumen College</h4>
+        <p>P.O box 2375. <br />Oke-Ayo Road, 4 Peace Avenue, Magboro, Nigeria. <br />(+234) 80 346-89-023. <br />acumenschools2009@gmail.com</p>
+
+        <h4>Navigation</h4>
+        <p>Admission <br /> Academics <br /> Student Life <br /> Resource Library <br /> About Us</p>
+        
+        <h4>Resources</h4>
+        <p>Blog <br /> News <br /> School Profile <br /> School Resources</p>
+
+        <h4>Social</h4>
+        <p>Follow us on <br /> Twitter <br /> Youtube <br /> Instagram <br /> Facebook</p>
+    </footer>
 </body>
 </html>

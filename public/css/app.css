@@ -1,11 +1,5 @@
 body {
-    background-color: #71591B;
-    background-blend-mode: multiply;
-    background-image: url("./Acumen2.jpg");
-    background-repeat: no-repeat;
-    background-size: 110%;
-    overflow-x: hidden;
-    /* background-color: #390000; */
+
     color: #353535;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -44,7 +38,7 @@ nav {
     /* border: 10px dashed #cdcddc; */
 }
 
-h1 {
+/* h1 {
     padding-top: 30px !important;
     position: relative;
     left: 27%;
@@ -54,7 +48,7 @@ h1 {
 form {
     position: relative;
     left: 11%;
-    /* right: 10%; */
+    //right: 10%;
 }
 
 .form-section {
@@ -64,7 +58,7 @@ form {
     left: 31%;
     width: 40rem;
     background: #fafafa;
-    /* border: 10px solid white; */
+    //border: 10px solid white;
     border-radius: 50px;
 }
 
@@ -103,7 +97,7 @@ input:focus {
     color: #175f36;
     transition: ease-in-out;
     transition-duration: 300ms;
-}
+} */
 
 /* header {
     /* margin: 0;
