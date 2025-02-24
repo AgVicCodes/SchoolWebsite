@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"> --}}
     <title>@yield('title') PAGE</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/staff">Staff</a></li>
-                <li><a href="/location">Location</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/register">Register</a></li>
+    <header class="bg-yellow-800">
+        <nav class="py-4 flex flex-row justify-between items-center">
+            <img src="logo.png" alt="logo" class="ml-4">
+            <ul class="flex flex-row justify-center uppercase text-neutral-200">
+                <li><a class="m-2" href="/blog">Blog</a></li>
+                <li><a class="m-2" href="/about">About</a></li>
+                <li><a class="m-2" href="/staff">Staff</a></li>
+                <li><a class="m-2" href="/location">Location</a></li>
+                <li><a class="m-2" href="/login">Login</a></li>
+                <li><a class="m-2" href="/register">Register</a></li>
             </ul>
+            <span>
+                <i>facebook icon</i>
+                {{-- <i>Youtube icon</i>
+                <i>tiktok icon</i> --}}
+            </span>
         </nav>
     </header>
     <main>
         @yield('content')
     </main>
-    <footer>
+    <footer class="bg-yellow-800">
+        {{-- Segment this into rows and columns that merge when reduced to phone view --}}
         <h4>Acumen College</h4>
         <p>P.O box 2375. <br />Oke-Ayo Road, 4 Peace Avenue, Magboro, Nigeria. <br />(+234) 80 346-89-023. <br />acumenschools2009@gmail.com</p>
 

@@ -16,3 +16,17 @@ from .env.example file and generate key using
 
 Up next, add tailwindcss for styling and 
 add map info in about the school
+
+Acumen Website ToDo:
+Install tailwing and design visible portions of the website.
+Include the map functionality and push to prod after completing:
+Home, blog, staff, register and about page
+Add follow us on social media to the about us page.
+Add social media icons to the top of the navbar use custom school website examples 
+(With custom message to make users expect an authenticated user interface).
+Include or replace for tiktok in the footer.
+
+To Install tailwind CSS:
+$ npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
