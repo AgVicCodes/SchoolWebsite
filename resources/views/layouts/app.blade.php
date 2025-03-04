@@ -9,26 +9,49 @@
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Nixie+One&display=swap" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
-    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"> --}}
     <title>@yield('title') PAGE</title>
 </head>
 <body>
     <header class="">
-        <nav class="py-4 flex flex-row justify-between items-center">
-            <img src="logo.png" alt="logo" class="ml-4">
-            <ul class="flex flex-row justify-center uppercase text-neutral-200">
-                <li><a class="m-2" href="/blog">Blog</a></li>
-                <li><a class="m-2" href="/staff">Staff</a></li>
-                <li><a class="m-2" href="/about">About</a></li>
-                <li><a class="m-2" href="/location">Location</a></li>
-                <li><a class="m-2" href="/login">Login</a></li>
-                <li><a class="m-2" href="/register">Register</a></li>
-            </ul>
-            <span>
-                <i>fb i</i>
-                {{-- <i>Youtube icon</i>
-                <i>tiktok icon</i> --}}
-            </span>
+        <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 absolute">
+            <div>
+                <a href="#" class="">
+                    <img src="{{ asset('img/logo.png') }}" alt="logo" class="ml-4 w-12">
+                </a>
+            </div>
+
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="menu-button"
+                class="h-9 w-9 cursor-pointer md:hidden block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="#fff"
+            >
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+                />
+            </svg>
+
+            <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                <ul class="pt-4 text-base text-neutral-200 md:flex md:justify-between uppercase">
+                    <li><a class="m-2" href="/blog">Blog</a></li>
+                    <li><a class="m-2" href="/staff">Staff</a></li>
+                    <li><a class="m-2" href="/about">About</a></li>
+                    <li><a class="m-2" href="/location">Location</a></li>
+                    <li><a class="m-2" href="/login">Login</a></li>
+                    <li><a class="m-2" href="/register">Register</a></li>
+                </ul>
+            </div>
+
+            {{-- <div class="md:opacity-0 hidden">
+                <a href="#">
+                    <img src="{{ asset('img/logo.png') }}" alt="logo" class="ml-4 w-12">
+                </a>
+            </div> --}}
         </nav>
     </header>
     <main>
@@ -62,5 +85,6 @@
             </ul>
         </div>
     </footer>
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>

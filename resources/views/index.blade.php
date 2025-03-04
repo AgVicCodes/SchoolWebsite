@@ -9,7 +9,7 @@
             <img src="{{asset('img/Acumen2.jpg')}}" alt="hero_image" class="my_cover" draggable="false">
         </div>
         <h1 class="hero_font">Raising future <br /> Acumen Leaders</h1>
-        <p class="m-plus-1p-regular hero_text">
+        <p class="m-plus-1p-regular hero_text duration-500">
             Welcome to Acumen College: 
             Where Knowledge Meets Purpose. 
             Our mission is to empower you with the skills, 
@@ -18,7 +18,7 @@
             embrace your potential, and embark on a transformative 
             educational journey with us.
         </p>
-        <button class="hero_button bg-neutral-500 border-2">LEARN MORE</button>
+        <button class="hero_button hover:bg-neutral-100 duration-500 ease-in-out border-neutral-100 text-neutral-100 hover:text-neutral-900 sm:border-2 sm:rounded-lg sm:px-8 sm:py-3 sm:text-md text-sm border-1 rounded-sm px-4 py-2">LEARN MORE</button>
     </div>
 
 

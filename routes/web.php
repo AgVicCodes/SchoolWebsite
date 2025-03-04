@@ -27,6 +27,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/log', function () {
+    return view('login');
+});
+
 Route::get('/', [PageController::class, "index"]);
 Route::get('/about', [PageController::class, "about"]);
 Route::get('/blog', [PageController::class, "blog"]);
