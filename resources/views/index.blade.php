@@ -3,17 +3,24 @@
 @section('title', 'HOME')
 
 @section('content')
-    <h1>Raising future Acumen Leaders</h1>
-    <p>
-        Welcome to Acumen College: 
-        Where Knowledge Meets Purpose. 
-        Our mission is to empower you with the skills, 
-        wisdom, and resilience needed to excel in 
-        an ever-evolving world. Explore our programs, 
-        embrace your potential, and embark on a transformative 
-        educational journey with us.
-    </p>
-    <button>LEARN MORE</button>
+
+    <div class="hero_section">
+        <div class="container">
+            <img src="{{asset('img/Acumen2.jpg')}}" alt="hero_image" class="my_cover" draggable="false">
+        </div>
+        <h1 class="hero_font">Raising future <br /> Acumen Leaders</h1>
+        <p class="m-plus-1p-regular hero_text">
+            Welcome to Acumen College: 
+            Where Knowledge Meets Purpose. 
+            Our mission is to empower you with the skills, 
+            wisdom, and resilience needed to excel in 
+            an ever-evolving world. Explore our programs, 
+            embrace your potential, and embark on a transformative 
+            educational journey with us.
+        </p>
+        <button class="hero_button bg-neutral-500 border-2">LEARN MORE</button>
+    </div>
+
 
     <h1>WELCOME TO ACUMEN COLLEGE</h1>
     <p>

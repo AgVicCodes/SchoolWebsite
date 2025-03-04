@@ -30,3 +30,14 @@ To Install tailwind CSS:
 $ npm install -D tailwindcss postcss autoprefixer
 
 npx tailwindcss init -p
+
+rm -rf node_modules package-lock.json
+
+npm cache clean --force
+
+npx tailwindcss --version
+
+fonts: Nixie One, Mada, Alice, Mplus 1p, Made Tommy, Karla
+
+colors: C9C9C9, 9A854B, 452E0C, 71591B, B49135, ADA0A6, 
+        80641D, F7F7F7, B8B8B8, 525252, 634A45, FFFFFF
